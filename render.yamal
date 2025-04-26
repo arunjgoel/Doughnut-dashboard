@@ -4,4 +4,4 @@ services:
     env: python
     plan: free
     buildCommand: pip install voila
-    startCommand: voila Doughnutfinal.ipynb --port=$PORT --no-browser --Voila.configuration.allow_origin="*" --Voila.configuration.enable_nbextensions=True
+    startCommand: voila Doughnut final.ipynb --port=$PORT --no-browser --Voila.configuration.allow_origin="*" --Voila.configuration.enable_nbextensions=True
